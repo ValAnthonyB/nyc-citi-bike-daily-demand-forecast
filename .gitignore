@@ -1,0 +1,61 @@
+# Ignore virtual environment
+.venv/
+.python-version
+
+# Ignore data files and folders
+/data/
+*.csv
+*.tsv
+*.npy
+*.npz
+*.h5
+*.zip
+*.parquet
+
+# Ignore all model files EXCEPT the final one
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.onnx
+*.pkl
+*.tflite
+*.mlmodel
+*.sav
+*.joblib
+
+# Allow specific saved model
+!models/daily_ridership_model_lightgbm.joblib
+
+# Ignore log and output files
+logs/
+*.log
+*.out
+*.err
+*.jsonl
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# System/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary/backup files
+*.tmp
+*.swp
+*~
+
+# DVC files (if you ever use it)
+.dvc/
+*.dvc
+.dvcignore
