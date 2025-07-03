@@ -1,4 +1,4 @@
 # NYC Citi Bike Daily Ridership Forecasting 
 The [NYC Citi Bike dataset](https://citibikenyc.com/system-data) contains detailed trip records from the Citi Bike bicycle-sharing system in New York City. Each entry includes data like trip duration, start and end times, station locations, bike ID, and rider demographics (if available). It is used for analyzing commuting patterns, bike usage, and urban mobility.
 
-This project aims to forecast bike demand one week in advance using a range of time series models (e.g. ARIMA, XGBoost, LighGBM, RNN, and transformer-based models). In the future, we develop an MLOps pipeline to automate data ingestion, processing, feature engineering, model retraining, and deployment via Flask.
+This project aims to forecast bike demand one week in advance using a range of time series models (e.g. ARIMA, XGBoost, LighGBM, RNN, and transformer-based models). We also use this dataset to explore advanced feature engineering and models for time series forecasting. In the future, we develop an MLOps pipeline to automate data ingestion, processing, feature engineering, model retraining, and deployment via Flask.
