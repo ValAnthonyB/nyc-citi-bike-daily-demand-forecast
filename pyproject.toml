@@ -18,3 +18,15 @@ dependencies = [
     "tqdm>=4.67.1",
     "xgboost>=3.0.2",
 ]
+
+[dependency-groups]
+dev = [
+    "nbqa>=1.9.1",
+    "ruff>=0.12.2",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312" 
+include = ["src/**/*.py", "notebooks/**/*.py"]
+lint.extend-select = ["I"]  # "I" = isort import sorting
